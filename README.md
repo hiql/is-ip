@@ -12,7 +12,7 @@ is-ip = "0.1.0"
 ## Usage
 
 ```rust
-use super::{is_ip, is_ipv4, is_ipv6}
+use is_ip::{is_ip, is_ipv4, is_ipv6}
 
 is_ip("1:2:3:4:5:6:7:8");
 //=> true
