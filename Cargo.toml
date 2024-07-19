@@ -1,0 +1,16 @@
+[package]
+name = "is-ip"
+version = "0.1.0"
+authors = ["hiql <dev.hiql@icloud.com>"]
+categories = ["Network programming"]
+description = "Check if a string is an IP address"
+documentation = "https://docs.rs/is-ip"
+edition = "2021"
+keywords = ["ip", "network", "utilities"]
+license = "MIT"
+repository = "https://github.com/hiql/is-ip"
+readme = "README.md"
+rust-version = "1.70.0"
+
+[dependencies]
+regex = "1.10"
