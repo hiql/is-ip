@@ -26,19 +26,19 @@ is_ipv4("1:2:3:4:5:6:7:8");
 
 ## API
 
-#### is_ip(string: &str) -> bool
+### is_ip(string: &str) -> bool
 
 Check if `string` is IPv6 or IPv4.
 
-#### is_ipv4(string: &str) -> bool
+### is_ipv4(string: &str) -> bool
 
 Check if `string` is IPv4.
 
-#### is_ipv6(string: &str) -> bool
+### is_ipv6(string: &str) -> bool
 
 Check if `string` is IPv6.
 
-#### ip_version(string: &str) -> Option<u8>
+### ip_version(string: &str) -> Option<u8>
 
 Returns `Some(6)` if `string` is IPv6, `Some(4)` if `string` is IPv4, or `None` if `string` is neither.
 

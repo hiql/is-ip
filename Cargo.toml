@@ -2,7 +2,7 @@
 name = "is-ip"
 version = "0.1.0"
 authors = ["hiql <dev.hiql@icloud.com>"]
-categories = ["Network programming"]
+categories = ["network-programming"]
 description = "Check if a string is an IP address"
 documentation = "https://docs.rs/is-ip"
 edition = "2021"
