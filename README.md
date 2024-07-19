@@ -12,7 +12,7 @@ is-ip = "0.1.0"
 ## Usage
 
 ```rust
-use is_ip::{is_ip, is_ipv4, is_ipv6}
+use is_ip::{is_ip, is_ipv4, is_ipv6};
 
 is_ip("1:2:3:4:5:6:7:8");
 //=> true
@@ -38,7 +38,7 @@ Check if `string` is IPv4.
 
 Check if `string` is IPv6.
 
-### ip_version(string: &str) -> Option<u8>
+### ip_version(string: &str) -> Option&lt;u8&gt;
 
 Returns `Some(6)` if `string` is IPv6, `Some(4)` if `string` is IPv4, or `None` if `string` is neither.
 
